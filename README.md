@@ -1,7 +1,7 @@
 # PROJECT
-- Fictitious sports car dealership website developed with **React.js**, **Node.js**, and **MongoDB Atlas**.
-- Front-End designed with **React.js** components, along with the **Axios** and **styled-components** libraries.
-- Back-End coded with **Node.js**, **Express.js**, and **Mongoose** to provide RESTful API routes using HTTP methods, handle JSON objects, and store data in a database on **MongoDB Atlas** for the front-end.
+- Fictitious sports car dealership website developed with React.js, Node.js, and MongoDB Atlas.
+- Front-end designed with React.js components, along with the Axios and styled-components libraries.
+- Back-end coded with Node.js, Express.js, and Mongoose to provide RESTful API routes using HTTP methods, handle JSON objects, and store data in a database on MongoDB Atlas for the front-end.
 
 
 
@@ -31,35 +31,35 @@ Shows only favorited car cards and the option to have them (or not) "compete" ba
 
 ###
 # SIMULATION
-To open the project, it is necessary to have an **integrated development environment (IDE)** installed.
+To open the project, it is necessary to have an integrated development environment (IDE) installed.
 <br>
-To execute the project, download and install [**Node.js**](https://nodejs.org/en) from the official website.
+To execute the project, download and install **[Node.js](https://nodejs.org/en)** from the official website.
 
 ### React.js
-- After cloning the repository, in a new terminal, execute the commands **cd PORTFOLIO-AUTOSHOW** and **cd React.js** to navigate to the correct folder. Then, use the command **npm install**.
+- After cloning the repository, in a new terminal, execute the commands `cd PORTFOLIO-AUTOSHOW` and `cd React.js` to navigate to the correct folder. Then, use the command `npm install`.
 
-- To view the website, run the command **npm start** to start the Front-End server. You will be redirected to the URL **http://localhost:3000**. The server supports hot-reloading, reflecting any code changes instantly in the browser.
+- To view the website, run the command `npm start` to start the Front-end server. You will be redirected to the URL **http://localhost:3000**. The server supports hot-reloading, reflecting any code changes instantly in the browser.
 
 ### Node.js
-- In another terminal, run the commands **cd PORTFOLIO-AUTOSHOW** and **cd Node.js** to navigate to the correct folder. Then, use the command **npm install dotenv** to install an environment variables library.
+- In another terminal, run the commands `cd PORTFOLIO-AUTOSHOW` and `cd Node.js` to navigate to the correct folder. Then, use the command `npm install dotenv` to install an environment variables library.
 
-- Run the command **nodemon server.js** to start the back-end server. It will operate at the URL **http://localhost:8000**.
+- Run the command `nodemon server.js` to start the back-end server. It will operate at the URL **http://localhost:8000**.
 
 
 
 ###
 # NOTES
-If you have any doubts, [**VS Code**](https://code.visualstudio.com/download) is a great **IDE** for this project.
+If you have any doubts, **[VS Code](https://code.visualstudio.com/download)** is a great IDE for this project.
 
-If the initialization commands are run in the terminal before the guided installations, use the shortcut **Ctrl + C** in terminal to cancel the operation.
+If the initialization commands are run in the terminal before the guided installations, use the shortcut Ctrl+C in terminal to cancel the operation.
 
-The **cd..** command allows you to return to the previous folders.
+The `cd..` command allows you to return to the previous folders.
 
 Sometimes, an uncaught runtime error can occur when adding car cards to the competition area due to database delays. If this happens, press F5 on your keyboard to reset the page, remove the car card from the competition area, and try again.
 
-The servers are configured to work on a local network, allowing access from any origin due to general [**CORS**](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) settings.
+The servers are configured to work on a local network, allowing access from any origin due to general **[CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)** settings.
 
-It is possible to view the JSON objects stored in the MongoDB database by typing **/cars**, **/favorites**, or **/race** after the back-end server URL **http://localhost:8000**.
+It is possible to view the JSON objects stored in the MongoDB database by typing `/cars`, `/favorites`, or `/race` after the back-end server URL **http://localhost:8000**.
 
 
 
@@ -91,7 +91,7 @@ It is possible to view the JSON objects stored in the MongoDB database by typing
 - **Axios** (HTTP client for making API requests).
 - **React Router DOM** (Library for managing routes and navigation in React applications, allowing the creation of a SPA with page navigation without reloading the page).
 
-### Back-End libraries and tools
+### Back-end libraries and tools
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 - **Express.js** (Framework for Node.js that simplifies the creation of servers and APIs).
