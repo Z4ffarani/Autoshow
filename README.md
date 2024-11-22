@@ -1,7 +1,7 @@
 # PROJECT
 - Fictitious sports car dealership website developed with React.js, Node.js, and MongoDB Atlas.
 - Front-end designed with React.js components, along with the Axios and styled-components libraries.
-- Back-end coded with Node.js, Express.js, and Mongoose to provide RESTful API routes using HTTP methods, handle JSON objects, and store data in a database on MongoDB Atlas for the front-end.
+- Back-end coded with Node.js, Express.js, and Mongoose to provide RESTful API routes using HTTP methods, handle JSONs (JavaScript object notation), and store data in a database on MongoDB Atlas for the front-end.
 
 
 
